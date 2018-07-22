@@ -15,9 +15,9 @@
 <body>
 
 	<div class="row">
-		<div class="col-md-4">
-			<div class="flex">
-				<div class="flex-sm-1 f_mg1">
+		<div class="col-md-5">
+			<div class="row">
+				<div class="col-md-6 pd-sm-1">
 					<div class="global_ob_container">
 						<div class="global_ob_container__lgtitle">
 							Global Order Book
@@ -194,7 +194,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="flex-sm-1">
+				<div class="col-md-6 pd-sm-2">
 					<div class="realtime_qf_container">
 						<div class="realtime_qf_container__lgtitle">
 							RealTime Quote Feed
@@ -630,12 +630,123 @@
 				</div>
 			</div>
 			<div class="orders_container">
-				<div class="orders_container__lgtitle">
-					Orders
+				<div class="orders_container__header">
+					<div class="flex">
+						<div class="flex-sm-1">
+							<div class="orders_container__lgtitle">
+								Orders
+							</div>
+						</div>
+						<div class="orders_menu">
+							<div class="flex">
+								<div class="flex-sm-1 tab">
+									Market
+								</div>
+								<div class="flex-sm-1 tab active">
+									Limit
+								</div>
+								<div class="flex-sm-1 tab">
+									Stop
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="orders_container__content">
+					<div class="row">
+						<div class="col-sm-6 orders_item__border">
+							<div class="orders_item">
+								<div class="orders_item__label">
+									Amount
+								</div>
+								<div class="orders_item__value">
+									<input type="number" class="" placeholder="0.000000">
+									<div>ETH</div>
+								</div>
+							</div>
+
+							<div class="orders_item">
+								<div class="orders_item__label">
+									Price limit
+								</div>
+								<div class="orders_item__value">
+									<input type="number" class="" placeholder="0.000000">
+									<div>USDT</div>
+								</div>
+							</div>
+
+							<div class="orders_item">
+								<div class="orders_item__label">
+									Total
+								</div>
+								<div class="orders_item__value">
+									<input type="number" class="" placeholder="0.000000">
+									<div>USDT</div>
+								</div>
+							</div>
+
+							<div class="slider-container">
+								<div class="slider-steps">
+									<div class="slider-step"></div>
+									<div class="slider-step"></div>
+									<div class="slider-step"></div>
+									<div class="slider-step"></div>
+								</div>
+								<div class="slider-line"></div>
+								<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+							</div>
+
+							<button type="button" class="btn_buy_eth">BUY ETH</button>
+						</div>
+						<div class="col-sm-6">
+							<div class="orders_item">
+								<div class="orders_item__label">
+									Amount
+								</div>
+								<div class="orders_item__value">
+									<input type="number" class="" placeholder="0.000000">
+									<div>ETH</div>
+								</div>
+							</div>
+
+							<div class="orders_item">
+								<div class="orders_item__label">
+									Price limit
+								</div>
+								<div class="orders_item__value">
+									<input type="number" class="" placeholder="0.000000">
+									<div>USDT</div>
+								</div>
+							</div>
+
+							<div class="orders_item">
+								<div class="orders_item__label">
+									Total
+								</div>
+								<div class="orders_item__value">
+									<input type="number" class="" placeholder="0.000000">
+									<div>USDT</div>
+								</div>
+							</div>
+
+							<div class="slider-container">
+								<div class="slider-steps">
+									<div class="slider-step"></div>
+									<div class="slider-step"></div>
+									<div class="slider-step"></div>
+									<div class="slider-step"></div>
+								</div>
+								<div class="slider-line"></div>
+								<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+							</div>
+
+							<button type="button" class="btn_sell_eth">SELL ETH</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-8">
+		<div class="col-md-7">
 
 		</div>
 	</div>
