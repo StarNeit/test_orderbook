@@ -1,82 +1,82 @@
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextBold';
 	src: url('../fonts/Avenir Next/AvenirNext-Bold.ttf');
 	font-style: normal;
 	font-weight: 700;
 }
 
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextBoldItalic';
 	src: url('../fonts/Avenir Next/AvenirNext-BoldItalic.ttf');
 	font-style: italic;
 	font-weight: 700;
 }
 
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextDemiBold';
 	src: url('../fonts/Avenir Next/AvenirNext-DemiBold.ttf');
 	font-style: normal;
 	font-weight: 600;
 }
 
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextDemiBoldItalic';
 	src: url('../fonts/Avenir Next/AvenirNext-DemiBoldItalic.ttf');
 	font-style: italic;
 	font-weight: 600;
 }
 
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextHeavy';
 	src: url('../fonts/Avenir Next/AvenirNext-Heavy.ttf');
 	font-style: normal;
 	font-weight: 900;
 }
 
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextHeavyItalic';
 	src: url('../fonts/Avenir Next/AvenirNext-HeavyItalic.ttf');
 	font-style: italic;
 	font-weight: 900;
 }
 
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextItalic';
 	src: url('../fonts/Avenir Next/AvenirNext-Italic.ttf');
 	font-style: italic;
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextMedium';
 	src: url('../fonts/Avenir Next/AvenirNext-Medium.ttf');
-	font-style: normal;
-	font-weight: 500;
+	/*font-style: normal;*/
+	/*font-weight: 500;*/
 }
 
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextMediumItalic';
 	src: url('../fonts/Avenir Next/AvenirNext-MediumItalic.ttf');
 	font-style: italic;
 	font-weight: 500;
 }
 
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextRegular';
 	src: url('../fonts/Avenir Next/AvenirNext-Regular.ttf');
 	font-style: normal;
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextUltraLight';
 	src: url('../fonts/Avenir Next/AvenirNext-UltraLight.ttf');
 	font-style: normal;
 	font-weight: 200;
 }
 
 @font-face {
-	font-family: 'AvenirNext';
+	font-family: 'AvenirNextUltraLightItalic';
 	src: url('../fonts/Avenir Next/AvenirNext-UltraLightItalic.ttf');
 	font-style: italic;
 	font-weight: 200;
