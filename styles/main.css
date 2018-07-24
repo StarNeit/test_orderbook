@@ -628,6 +628,7 @@ body {
 
 .graph_tool__maintools__item img{
     cursor: pointer;
+    transform: scale(0.8);
 }
 
 
