@@ -601,6 +601,35 @@ body {
     border-radius: 4px;
 }
 
+.graph_tool__maintools{
+    padding: 15px;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.graph_tool__maintools__item{
+    border: 1px solid #e8e8e8;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    color: #2E2E2E;
+    font-size: 16px;
+    font-family: "AvenirNextDemiBold";
+    cursor: pointer;
+}
+
+.graph_tool__maintools__item img{
+    cursor: pointer;
+}
+
 
 /*Account tool*/
 .account_group{
