@@ -7,7 +7,7 @@ body {
     background: #f9f9f9;
     position: relative;
     overflow-x: hidden;
-    padding: 15px 15px 10px;
+    padding: 15px 15px 10px 65px;
 }
 
 .red-highlight {
@@ -391,6 +391,84 @@ body {
     background-color: #737373;
 }
 
+
+/**/
+.sidebar{
+    background: #2C232B;
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    padding: 20px 6px;
+}
+
+.sidebar__avatar__box{
+    position: relative;
+    cursor: pointer;
+}
+
+.sidebar__avatar{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.sidebar__avatar__badge{
+    width: 22px;
+    height: 22px;
+    border-radius: 50% 50%;
+    background: #E05475;
+    color: #fff;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    z-index: 120;
+    border: 1px solid #000;
+    font-size: 9px;
+    text-align: center;
+    padding-top: 4px;
+    font-family: 'AvenirNextDemiBold';
+}
+
+.sidebar__ico{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.sidebar__label{
+    color: #A6A6A6;
+    padding-top: 7px;
+    font-size: 11px;
+}
+
+.sidebar__refresh{
+    width: 80%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom_controls{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.bottom_controls__icon{
+    margin-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
 @media (max-width: 1350px) {
     .global_ob__table__header{
         font-size: 12px;
@@ -411,6 +489,7 @@ body {
     body{
         overflow-y: auto;
     }
+
     .pd-sm-1{
         padding-right: 15px;
     }
@@ -433,5 +512,15 @@ body {
 
     .orders_item__border{
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-left: 15px;
+    }
+
+    .sidebar {
+        display: none;
     }
 }
